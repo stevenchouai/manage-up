@@ -1,0 +1,4 @@
+node_modules/
+.manage-up-mcp/
+.npm-cache/
+*.tgz

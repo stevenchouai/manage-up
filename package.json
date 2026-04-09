@@ -1,0 +1,37 @@
+{
+  "name": "manage-up-mcp",
+  "version": "1.1.0",
+  "description": "ManageUp MCP Server - Transform workplace reports with data-driven, conclusion-first methodology",
+  "main": "mcp-server.js",
+  "type": "module",
+  "files": [
+    "bin/",
+    "mcp-server.js",
+    "README.md",
+    "ManageUp MCP Server 本地安装与使用指南.md"
+  ],
+  "bin": {
+    "manage-up-mcp": "./bin/manage-up-mcp.js"
+  },
+  "scripts": {
+    "mcp": "node mcp-server.js",
+    "start": "node ./bin/manage-up-mcp.js",
+    "verify:mcp": "node scripts/test-mcp-server.js",
+    "pack:mcp": "npm pack --cache ./.npm-cache"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "manage-up",
+    "workplace-reports",
+    "ai-agent"
+  ],
+  "author": "ManageUp Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  }
+}

@@ -1,4 +1,18 @@
-# ManageUp 安装指南 (Installation Guide)
+# ManageUp Skills 安装指南 (Legacy Skills Installation Guide)
+
+> 如果你的 AI 客户端已经支持 MCP，请优先使用公开 npm 包：
+>
+> ```bash
+> npm install -g manage-up-mcp
+> ```
+>
+> 然后在客户端里注册命令：
+>
+> ```bash
+> manage-up-mcp
+> ```
+>
+> 本文档只保留给仍然使用 `skills/` 目录方式的场景。
 
 ## 前提条件
 
@@ -7,7 +21,7 @@
 
 ## 安装方式
 
-### 方式一：全局安装（推荐）
+### 方式一：全局安装
 
 全局安装后，ManageUp 技能在所有项目中都可用。
 
