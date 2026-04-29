@@ -1,11 +1,13 @@
 {
   "name": "manage-up-mcp",
   "version": "1.1.1",
-  "description": "ManageUp MCP Server - Transform workplace reports with data-driven, conclusion-first methodology",
+  "description": "Chinese workplace AI Skill and MCP workflow for decision-ready manager-facing reports",
   "main": "mcp-server.js",
   "type": "module",
   "files": [
     "bin/",
+    "docs/",
+    "examples/",
     "mcp-server.js",
     "README.md",
     "ManageUp MCP Server 本地安装与使用指南.md"
@@ -26,7 +28,9 @@
     "mcp",
     "manage-up",
     "workplace-reports",
-    "ai-agent"
+    "ai-agent",
+    "chinese-workplace",
+    "manager-reporting"
   ],
   "author": "ManageUp Team",
   "license": "MIT",
