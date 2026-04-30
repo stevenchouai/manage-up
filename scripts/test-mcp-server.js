@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import fs from "node:fs";
-import os from "node:os";
 import path from "node:path";
 
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
@@ -11,10 +10,8 @@ import {
   ListToolsResultSchema,
 } from "@modelcontextprotocol/sdk/types.js";
 
-const preferredLogDir =
-  process.env.MANAGE_UP_MCP_LOG_DIR ||
-  path.join(os.homedir(), ".manage-up-mcp", "logs");
 const fallbackLogDir = path.join(process.cwd(), ".manage-up-mcp", "logs");
+const preferredLogDir = process.env.MANAGE_UP_MCP_LOG_DIR || fallbackLogDir;
 const defaultEntry = path.resolve("mcp-server.js");
 const command = process.env.MANAGE_UP_MCP_COMMAND || process.execPath;
 const args = process.env.MANAGE_UP_MCP_COMMAND

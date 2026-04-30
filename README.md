@@ -2,6 +2,11 @@
 
 ### 让 AI 写出老板看得懂、能决策的中文职场汇报
 
+[![npm](https://img.shields.io/npm/v/manage-up-mcp?style=flat-square)](https://www.npmjs.com/package/manage-up-mcp)
+[![MCP](https://img.shields.io/badge/MCP-ready-blueviolet?style=flat-square)](https://modelcontextprotocol.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
+[![Website](https://img.shields.io/badge/website-live-brightgreen?style=flat-square)](https://stevenchouai.github.io/manage-up/)
+
 **[🇨🇳 中文](#manageup)** | **[🇺🇸 English](#english)**
 
 > 大模型写的报告为什么不好？因为它没有你的数据，也不知道中文职场里“老板需要拿它做决策”。ManageUp 的核心思路：**先收集事实，再组织成结论、进展、风险、需要决策**。

@@ -16,7 +16,7 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 
 const SERVER_NAME = "manage-up-mcp";
-const SERVER_VERSION = "1.1.0";
+const SERVER_VERSION = "1.1.1";
 const DEFAULT_LOG_DIR = path.join(os.homedir(), ".manage-up-mcp", "logs");
 const FALLBACK_LOG_DIR = path.join(process.cwd(), ".manage-up-mcp", "logs");
 const SESSION_ID = randomUUID();
